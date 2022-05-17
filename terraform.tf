@@ -9,7 +9,7 @@ provider "wasabi" {
   skip_metadata_api_check     = true
   max_retries                 = 3
   endpoints {
-  #   sts = var.endpoint
+  #   sts = ???
      iam = "iam.wasabisys.com"
      s3 = "s3.eu-central-2.wasabisys.com"
   }
